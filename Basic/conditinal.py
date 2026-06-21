@@ -57,3 +57,20 @@ if age >= 18:
         print("ID Required")
 else:
     print("Under Age")
+
+
+#traffic light example
+light = input("enter the light color of traffic light(red, yellow, green):")    
+if light == "red":
+    print("stop")
+elif light == "yellow":
+    print("ready to go") 
+elif light == "green":
+    print("go")       
+else:
+    print("enter a valid color")    
+
+
+ #Ternary Operator
+age = 20
+print("You can vote") if age >= 18 else print("You cannot vote")   

@@ -45,6 +45,10 @@ print(type(b))
 print(type(c))
 print(type(d))
 
+""" This is a multi-line comment
+   in Python. 
+   It can span multiple lines. """
+
 
 A,B = 3,2
 C=4.0
@@ -70,3 +74,10 @@ print(greeting.split(", ")) # ['Hello', 'World!']
 print(greeting.strip("!")) # Hello, World
 print(greeting.find("World")) # 7
 print(greeting.count("o")) # 2
+
+
+
+
+
+
+
