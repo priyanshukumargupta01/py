@@ -75,7 +75,7 @@ else:
 age = 20
 print("You can vote") if age >= 18 else print("You cannot vote") 
 
-
+#example
 marks = 85
 if(marks >= 90):
     grade = "A"
