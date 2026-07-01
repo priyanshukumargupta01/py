@@ -13,6 +13,7 @@ print(dict["name"])
 print(dict["age"])
 print(dict["cgpa"])
 print(dict["marks"])
+print(type(dict["marks"]))
 
 dict["name"] = "Priyanshu"
 dict["surname"] = "Kumar"

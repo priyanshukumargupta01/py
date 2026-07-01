@@ -1,22 +1,3 @@
-#A set in Python is a collection that stores unique (no duplicates) and unordered elements.
-
-# Empty set
-s = set()
-print(s)
-
-# Set with values
-fruits = {"apple", "banana", "mango", "5"}
-print(fruits)
-print(type(fruits))
-print(len(fruits))
-
-
-#duplicate value
-numbers = {1, 2, 3, 2, 1, 4}
-print(numbers)
-print(len(numbers))
-
-
 #method in set
 set = {1, 2, 3, 4, 5}
 set2 = {14, 15, 16, 17, 18}
@@ -36,5 +17,3 @@ set.copy()  # Creates a shallow copy of the set
 print(set)
 set.union(set2)  # Returns a new set with elements from both sets
 print(set.union(set2))
-print(set.intersection(set2))  # Returns a new set with elements common to both sets
-print(set.difference(set2))  # Returns a new set with elements in set but not in set2
