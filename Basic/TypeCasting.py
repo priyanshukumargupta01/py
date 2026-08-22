@@ -13,12 +13,12 @@ y = float("25.4")  # 25.4
 
 num = 45
 text = str(num)    # "45"
-print("Score is: " + text)  # String concatenation ke liye zaroori
+print("Score is: {}".format(text))  # String concatenation ke liye zaroori
 
 
 
-print(bool(0))        # False(beacuse 0 is empty value)
-print(bool("Hello"))  # True(i this case string is not empty)
+print("{}".format(bool(0)))        # False(beacuse 0 is empty value)
+print("{}".format(bool("Hello")))  # True(i this case string is not empty)
 
 
 # List to Set (Duplicates remove karne ke liye)
