@@ -1,15 +1,8 @@
-#logical operators
-x = True
-y = False
-print(x and y)  # False
-
-a=3
-b=5
-if a > 0 and b > 0:
-    print("Both numbers are positive")
-elif a > 0 or b < 0:
-    print("At least one number is not positive")
-elif not a > 0:
-    print("a is not positive")
-else:
-    print("Both numbers are not positive")
+# List to Set (Duplicates remove karne ke liye)
+my_list = [1, 2, 2, 3, 4, 4]
+unique_set = set(my_list)      # {1, 2, 3, 4} 
+# Set to List
+clean_list = list(unique_set)  # [1, 2, 3, 4] 
+# List of Pairs to Dictionary
+pairs = [("a", 1), ("b", 2)]
+my_dict = dict(pairs)          # {'a': 1, 'b': 2}
